@@ -5,8 +5,14 @@
 </template>
 
 <style>
+
 html {
   font-size: 62.5%;
+  background-image: url("../Images/Woodtable.jpeg");
+  height: 100%; 
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 *, 
@@ -25,8 +31,6 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem;
-  background-image: url("http://lichfieldsfurniture.co.uk/wp-content/uploads/2016/10/Cafe-background-1.jpg");
-  background-size: cover;
   box-sizing: border-box;
 }
 
