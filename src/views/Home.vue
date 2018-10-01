@@ -1,12 +1,12 @@
 <template>
   <div class="home container">
     <div class="header">
-    <h1>{{ name }}</h1>
+    <h1>{{ Welcome }}</h1>
     </div>
     <div class="laptop">
-    <div class="computerScreen">
+      <div class="laptop_computerScreen">
     </div>
-  </div>
+    </div>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 export default {
   data: function() {
     return {
-      name: "Katherine Evans"
+      Welcome: "Katherine Evans - Chicago Based Web Developer"
     };
   },
   created: function() {},

@@ -37,14 +37,32 @@ body {
   background-attachment: fixed;
 }
 
+.header {
+  text-align: center;
+  font-size: 16px;
+}
 .laptop {
-  background-image: url("../images/laptop.png");
+  background-image: url("../images/laptop-green.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
   min-height: 850px;
   flex-shrink: 0;
   width: 100%;
   padding-top: 69.64%;
+  z-index: 2;
 }
+
+/*.laptop_computerScreen {
+  background-color: black;
+  background-position: center;
+  flex-shrink: 0;
+  width: 71%;
+  height: 56%;
+  left: 156px;
+  position: absolute;
+  top: 40px;
+  z-index: 3;
+}*/
 </style>;
