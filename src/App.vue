@@ -9,7 +9,10 @@
 html {
   font-size: 62.5%;
 }
-
+#app {
+  max-width: 1240px; 
+  min-width: 1240px;
+}
 *,
 *::after,
 *::before {
@@ -29,8 +32,10 @@ body {
   box-sizing: border-box;
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
   background-image: url("../images/outdoors.jpg");
+  max-width: 1240px; 
+  min-width: 1240px;
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +45,7 @@ body {
 .header {
   text-align: center;
   font-size: 16px;
+  color: #DCDCDC;
 }
 .laptop {
   background-image: url("../images/laptop-green.png");
